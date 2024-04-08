@@ -4,6 +4,7 @@ set scrolloff=5
 set incsearch
 
 set number relativenumber
+set clipboard+=unnamed
 
 nmap [[ <Action>(MethodUp)
 nmap ]] <Action>(MethodDown)
@@ -24,6 +25,7 @@ nmap \x <Action>(HideAllWindows)
 nmap \tcl <Action>(CloseAllToTheLeft)
 nmap \tcr <Action>(CloseAllToTheRight)
 nmap \tca <Action>(CloseAllEditorsButActive)
+nmap \rf <Action>(RecentFiles)
 
 
 nmap \\c <Action>(CheckinProject)
